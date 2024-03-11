@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<title>Data Table</title>
+</head>
+
+<body>
+	<section id="sideItems">
+		<a href="#" class="logo">
+			<i class='bx bx-table'></i>
+			<span class="text">Data Table</span>
+		</a>
+		<ul class="sideMenu topMenu">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="text">Table</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt'></i>
+					<span class="text">Products</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<section id="navbarMain">
+
+		<nav>
+			<i class='bx bx-menu'></i>
+		</nav>
+
+		<main>
+			<div class="navbarSecond">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right'></i></li>
+						<li>
+							<a class="active" href="#">Table</a>
+						</li>
+					</ul>
+				</div>
+				<button class="add-pro-but">Add Product</button>
+			</div>
+
+
+
+			<div class="content">
+
+				<div class="order">
+
+					<div class="head">
+						<h3>Product Details</h3>
+						
+
+						<div class="dropdown">
+							<button class="dropbtn">
+								<i class='bx bx-filter'></i>Sort
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<a href="#">Sort a-z by id</a>
+								<a href="#">Sort z-a by id</a>
+								<a href="#">Sort a-z by Price</a>
+								<a href="#">Sort z-a by Price</a>
+							</div>
+						</div>
+
+
+					</div>
+
+					<div class="table-container">
+						<table>
+
+							<thead>
+								<tr>
+									<th class="pro_id">Product Id</th>
+									<th class="pro_name">Product Name</th>
+									<th class="pro_title">Product Title</th>
+									<th class="pro_des">Product Description</th>
+									<th class="pro_ven">Product Vendor</th>
+									<th class="pro_sto">In Stock</th>
+									<th class="pro_pri">Buying Price</th>
+									<th class="pro_sale">Sale Price</th>
+									<th class="pro_quan">Purchase Quantity</th>
+									<th class="pro_type">Product Type</th>
+									<th class="pro_ship">Shipping rates</th>
+									<th class="pro_refill">Refill Limit</th>
+									<th class="pro_loc">Product Location Address</th>
+									<th class="pro_action">Action</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>1</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>1</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>2</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>3</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>4</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>5</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>6</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>7</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>8</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>9</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>10</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>11</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>12</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+							<tbody>
+								<tr>
+									<td>
+										<p>13</p>
+									</td>
+									<td>
+										<p>iphone 15</p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit . </p>
+									</td>
+									<td>
+										<p>Apple</p>
+									</td>
+									<td>
+										<p>110</p>
+									</td>
+									<td>
+										<p>450,000</p>
+									</td>
+									<td>
+										<p>500,000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Mobile Phone</p>
+									</td>
+									<td>
+										<p>2000</p>
+									</td>
+									<td>
+										<p>1000</p>
+									</td>
+									<td>
+										<p>Lahore</p>
+									</td>
+									<td>
+										<button class="edit-pro-but">Edit</button>
+										<button class="del-pro-but">Delete</button>
+									</td>
+								</tr>
+							</tbody>
+
+						</table>
+					</div>
+				</div>
+
+			</div>
+
+
+		</main>
+	</section>
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
