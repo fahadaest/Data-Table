@@ -320,58 +320,6 @@ td {
 	overflow-x: auto;
 }
 
-/* th.pro_id {
-	width: 150px;
-}
-
-th.pro_name {
-	width: 250px;
-}
-
-th.pro_title {
-	width: 250px;
-}
-
-th.pro_des {
-	width: 500px;
-}
-
-th.pro_ven {
-	width: 150px;
-}
-
-th.pro_sto {
-	width: 150px;
-}
-
-th.pro_pri {
-	width: 1500px;
-}
-
-th.pro_sale {
-	width: 1500px;
-}
-
-th.pro_quan {
-	width: 1500px;
-}
-
-th.pro_type {
-	width: 1500px;
-}
-
-th.pro_ship {
-	width: 1500px;
-}
-
-th.pro_refill {
-	width: 1500px;
-}
-
-th.pro_loc {
-	width: 1500px;
-} */
-
 .content .order table th {
 	padding-bottom: 12px;
 	font-size: 13px;
@@ -452,8 +400,6 @@ td {
 
 }
 
-
-
 @media only screen and (max-width: 1024px) {
 	.table-container {
 		height: 65vh;
@@ -462,13 +408,6 @@ td {
 		overflow-y: auto;
 	}
 }
-
-
-
-
-
-
-
 
 .dropdown .dropbtn {
 	font-size: 16px;
@@ -515,4 +454,12 @@ td {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+th:first-child,
+td:first-child {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	background-color: #f5f5f5;
 }
