@@ -303,7 +303,7 @@ td {
 }
 
 .content .order .table-container {
-	font-size: 10px;
+	font-size: 0.8rem;
 	overflow-y: auto;
 	overflow-x: auto;
 }
@@ -322,7 +322,7 @@ td {
 
 .content .order table th {
 	padding-bottom: 12px;
-	font-size: 13px;
+	font-size: 1rem;
 	text-align: left;
 	border-bottom: 1px solid var(--grey);
 }
@@ -372,8 +372,8 @@ td {
 
 .edit-pro-but {
 	height: 30px;
-	width: 50px;
-	margin-right: 40px;
+	width: 70px;
+	margin-right: 0px;
 	background-color: var(--blue);
 	border-radius: 10px;
 	border: none;
@@ -387,8 +387,8 @@ td {
 
 .del-pro-but {
 	height: 30px;
-	width: 50px;
-	margin-right: 40px;
+	width: 70px;
+	margin-right: 4px;
 	background-color: rgb(255, 97, 97);
 	border-radius: 10px;
 	border: none;
@@ -463,3 +463,14 @@ td:first-child {
 	left: 0;
 	background-color: #f5f5f5;
 }
+
+thead th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+			background-color: #f5f5f5;
+        }
+
+ tr:hover {
+      background-color: var(--light-blue);
+    }
